@@ -347,7 +347,7 @@ bool EaselMinigame::Start( NWorld::PFMinigamePlace * place )
   NI_VERIFY( IsValid( place ), "EaselMinigame: start minigame failed - minigame place is invalid", return false );
   SetMinigamePlace( place );
 
-  player = place->CurrentEaselPlayer();
+  //player = place->CurrentEaselPlayer();
 
   const Placement& _placement = place->GetMinigamePlacement();
 
